@@ -37,11 +37,6 @@ public class MovimientoDto implements Serializable {
 		return descripcion;
 	}
 
-	@Transient
-	public String getDescription() {
-		return toString();
-	}
-
 	public java.util.Date getFecha() {
 		return fecha;
 	}

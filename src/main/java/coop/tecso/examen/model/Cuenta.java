@@ -65,11 +65,6 @@ public class Cuenta implements Serializable {
 
 	}
 
-	@Transient
-	public String getDescription() {
-		return toString();
-	}
-
 	public Long getId() {
 		return id;
 	}
