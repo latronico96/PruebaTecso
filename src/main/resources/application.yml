@@ -5,6 +5,13 @@ server:
 spring:
   profiles.active: dev
   application.name: ExamenTecso
+  h2:
+    console:
+      enabled: true
+      path: /console
+      settings:
+        trace: false
+        web-allow-others: false
       
 ---
 #DEV CONFIGURATION
